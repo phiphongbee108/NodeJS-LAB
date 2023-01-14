@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-lab",
+    "version": "1.0.0",
+    "description": "NodeJS Lab",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js",
+        "start-server": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/phiphongbee108/NodeJS-LAB.git"
+    },
+    "keywords": [
+        "NodeJS"
+    ],
+    "author": "TamTD",
+    "bugs": {
+        "url": "https://github.com/phiphongbee108/NodeJS-LAB/issues"
+    },
+    "homepage": "https://github.com/phiphongbee108/NodeJS-LAB#readme",
+    "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-validator": "^5.3.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.2",
+    "multer": "^1.4.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
